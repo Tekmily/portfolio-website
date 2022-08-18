@@ -12,7 +12,7 @@
     </h1>
     <p>SHE ASPIRES TO CRAFT WEB EXPERIENCES THAT TYPIFY AND INSPIRE.</p>
     <div>
-        <a class="resume" href="./assets/files/RESUME_CABUANGv2-1.pdf" download>DOWNLOAD RESUME</a>
+        <a class="resume" href="https://drive.google.com/file/d/1DtXLjUCwbgSMRSRkjzXqrpxZIyheP5T8/view?usp=sharing">DOWNLOAD RESUME</a>
     </div>
 </template>
 

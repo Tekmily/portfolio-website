@@ -56,7 +56,7 @@
             <p>I used excel to keep track of the domain names I worked on for various clients and private blog networks. I was in charge of the websites' domain registration, web hosting, design, and maintainance. Some of them have already been taken down, and some domains have been sold and are no longer in use.</p>
         </div>
         <div>
-            <div id="banner-button">SEE LIST HERE</div>
+            <div id="banner-button"><a href="https://docs.google.com/spreadsheets/d/1aqnXP2cYq1zjmbXCMiJAlZbHtRbOCiiaOOdtxTFQJbY/edit?usp=sharing">SEE LIST HERE</a></div>
         </div>
     </section>
 </template>
