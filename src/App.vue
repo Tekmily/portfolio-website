@@ -17,6 +17,15 @@
   <section id="projects-section">
     <ProjectsSection />
   </section>
+  <section id="notable-webprojects">
+    <NotableWebProjects />
+  </section>
+  <section id="active-websites">
+    <ActiveWebsites />
+  </section>
+  <section id="seo-results">
+    <SeoResults />
+  </section>
   <section id="contact-section">
     <ContactSection />
   </section>
@@ -27,7 +36,10 @@
 import NavigationSection from './components/NavigationSection.vue'
 import HeaderSection from './components/HeaderSection.vue'
 import AboutSection from './components/AboutSection.vue'
-import ProjectsSection from './components/ProjectsSection.vue'
+import ProjectsSection from './components/WebProjectsSection.vue'
+import NotableWebProjects from './components/items/WebProjectsItem.vue'
+import ActiveWebsites from './components/ActiveWebsites.vue'
+import SeoResults from './components/SeoResults.vue'
 import ContactSection from './components/ContactSection.vue'
 </script>
 
@@ -37,7 +49,7 @@ import ContactSection from './components/ContactSection.vue'
   font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin-top: 30px;
+
 }
 
 :root {
@@ -48,6 +60,9 @@ import ContactSection from './components/ContactSection.vue'
 
 body {
   background-color: var(--main-black);
+  text-align: center;
+  margin: 0;
+
 }
 
 body h1, h2, h3 {
