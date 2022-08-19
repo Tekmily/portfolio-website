@@ -8,24 +8,27 @@
   <section id="navigation-section">
     <NavigationSection/>
   </section>
+
   <section id="header-section">
     <HeaderSection />
   </section>
-    <section id="about-section">
+
+  <section id="about-section">
     <AboutSection />
   </section>
-  <section id="projects-section">
-    <ProjectsSection />
+
+  <section id="webprojects-section">
+    <WebProjectsSection />
   </section>
-  <section id="notable-webprojects">
-    <NotableWebProjects />
-  </section>
+
   <section id="active-websites">
     <ActiveWebsites />
   </section>
+
   <section id="seo-results">
     <SeoResults />
   </section>
+
   <section id="contact-section">
     <ContactSection />
   </section>
@@ -36,8 +39,7 @@
 import NavigationSection from './components/NavigationSection.vue'
 import HeaderSection from './components/HeaderSection.vue'
 import AboutSection from './components/AboutSection.vue'
-import ProjectsSection from './components/WebProjectsSection.vue'
-import NotableWebProjects from './components/items/WebProjectsItem.vue'
+import WebProjectsSection from './components/WebProjectsSection.vue'
 import ActiveWebsites from './components/ActiveWebsites.vue'
 import SeoResults from './components/SeoResults.vue'
 import ContactSection from './components/ContactSection.vue'
@@ -56,6 +58,10 @@ import ContactSection from './components/ContactSection.vue'
   --main-pink: rgba(245, 143, 124, 1);
   --main-black: rgba(44, 43, 48, 1);
   --main-gray: rgba(214, 214, 214, 1);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
