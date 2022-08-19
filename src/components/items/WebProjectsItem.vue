@@ -7,14 +7,14 @@
     <div class="card-item">
         <div class="card-inner">
             <img :src="require('@/assets/' + props.items.image)">
-            <div class="web-name">{{ prop.items.title }}</div>
-            <a :href="prop.item.a" target="_blank">Visit Site</a>
+            <div class="web-name">{{ props.items.title }}</div>
+            <a :href="props.items.a" target="_blank">Visit Site</a>
             <p class="web-detail">{{ props.items.body }}</p>
         </div>
     </div>
 </template>
 
-<script>
+<script setup>
 import { defineProps } from 'vue'
 
 const props = defineProps ({
