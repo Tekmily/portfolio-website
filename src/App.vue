@@ -58,6 +58,7 @@ import ContactSection from './components/ContactSection.vue'
   --main-pink: rgba(245, 143, 124, 1);
   --main-black: rgba(44, 43, 48, 1);
   --main-gray: rgba(214, 214, 214, 1);
+  --sub-pink: rgba(242, 196, 206, 1);
 }
 
 html {
