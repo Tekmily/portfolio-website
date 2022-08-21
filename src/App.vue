@@ -51,9 +51,6 @@ import ContactSection from './components/ContactSection.vue'
   font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin: 0;
-  padding: 0;
-
 }
 
 :root {
@@ -70,17 +67,29 @@ html {
 body {
   background-color: var(--main-black);
   text-align: center;
-  margin: 0;
-  padding: 0;
 
 }
 
 body h1, h2, h3 {
   color: var(--main-pink);
+  font-weight: bold;
 }
 
-body p {
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+p {
   color: var(--main-gray);
+  font-size: 20px;
 }
 
 #navigation-section {
@@ -90,5 +99,11 @@ body p {
   padding: 1vw 2vw;
   background-color: var(--main-black) ;
   width: 100%;
+  margin-left: -1vw;
+}
+
+#header-section {
+  margin-left: -2vw;
+  margin-right: -3vw;
 }
 </style>
