@@ -17,21 +17,20 @@
             <h3 class="head-format">ACTIVE WEBSITES</h3>
             <p class="para-format">The websites listed below are all currently operational and have been managed by her in the most recent few years. Some of them are personal blog networks, while others are client websites.</p>
             <ul>
-                <li>Roofing Waterloo</li>
-                <li>WNY Websites</li>
-                <li>Arc Web Soln's</li>
-                <li>B2B Online</li>
-                <li>Price Foundation</li>
-                <li>The Harpers</li>
+                <li><a href="http://www.ankitasadani.com/" target="_blank">WNY Website</a></li>
+                <li><a href="https://roofingwaterloo.com/" target="_blank">Roofing Waterloo</a></li>
+                <li><a href="http://arcwebsolutions.net/" target="_blank">Arc Web Soln's</a></li>
+                <li><a href="http://www.b2buniversityonline.com/" target="_blank">B2B Online</a></li>
+                <li><a href="http://www.thepricefoundation.com" target="_blank">Price Foundation</a></li>
+                <li><a href="http://www.gulfcoastharpers.org/" target="_blank">The Harpers</a></li>
             </ul>
         </div>
 
         <div class="other-active">
             <h3 class="head-format">ALL DOMAIN</h3>
             <p class="para-format">She kept track of all the domain names she worked on for various clients and private blog networks in Excel. She was also in charge of domain registration, hosting (via hosting services), and website maintenance. Some of the domains have already been removed, and others have been sold. That being said, you can view the domain's documentation and check the domains she managed by clicking the buttons below.</p>
-        </div>
-    </div>
-<!-- BUTTONS -->
+
+            <!-- BUTTONS -->
     <div class="web-buttons">
         <div class="web-docubutton">
             <a href="https://drive.google.com/drive/folders/1CC36ZCIcS0v3sSNVu0JqO5kpdcPQ4A3X?usp=sharing">DOCUMENTATION</a>
@@ -41,13 +40,86 @@
             <a href="https://drive.google.com/drive/folders/1CC36ZCIcS0v3sSNVu0JqO5kpdcPQ4A3X?usp=sharing">FULL LIST</a>
         </div>
     </div>
+        </div>
+    </div>
+
 </template>
 
 <style scoped>
+/* CARDS */
+.web-list {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.other-active {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--main-gray);
+    width: clamp(100px, 50%, 450px);
+    height: clamp(400px, 40%, 1200px);
+    position: relative;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.other-active > * {
+    padding: 10px;
+}
+
+.other-active:hover {
+    background: var(--sub-pink);
+    color: #fff;
+    box-shadow: 0px 0px 11px 5px #000000;
+}
+
+.head-format {
+    color: var(--main-pink);
+	font-weight: 900;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-size: 32px;
+    text-shadow: 1px 0px 2px black;
+	white-space: wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0;
+    margin-bottom: 1vw;
+}
+
+.para-format {
+    font-size: 18px;
+	line-height: 24px;
+	color: var(--main-black);
+}
+
+.other-active ul {
+    padding-top: 0;
+}
+.other-active li {
+    list-style: none;
+}
+
+.other-active a {
+    text-decoration: none;
+    color: var(--main-black);
+}
+
+.other-active a:hover {
+    background-color: var(--main-black);
+    color: white;
+}
+/* FOR BLOCKQUOTE  */
 .quote {
-    margin-left: -4vw;
+    margin-left: 1vw;
     margin-right: 5vw;
-    margin-top: 2vw
+    margin-top: 2vw;
+    margin-bottom: 2vw;
 }
 
 blockquote {
