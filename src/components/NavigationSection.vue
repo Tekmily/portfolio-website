@@ -5,12 +5,10 @@
 
 <template>
 <div class="nav">
+    <!-- Website Logo -->
     <img class="logo" :src="require('@/assets/logo.png')" alt="website logo">
 
-    <!-- <div class="burger-menu">
-        <input class="menu-btn" type="checkbox" id="menu-btn" />
-        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-    </div> -->
+    <!-- Website Navigation Menu -->
     <div class="menu-container">
         <div class="list-container">
             <ul class="menu" id="menu">
@@ -19,19 +17,22 @@
                 <li class="item"><a class="link" href="#contact-section">CONTACT</a></li>
             </ul>
 
+    <!-- Hamburger Navigation Feature Open -->
             <a id="hamburger" href="#menu" title="menu" class="hamburger">
                 <img :src="require('@/assets/burger.png')" alt="">
             </a>
         </div>
+
+    <!-- Hamburger Navigation Feature Close -->
         <a href="#!" title="close menu" class="hamburger-close">
             <img :src="require('@/assets/burger-close.png')" alt="">
         </a>
     </div>
-
 </div>
 </template>
 
 <style scoped>
+/* GENERAL STYLING */
 *,
 *::before,
 *::after {
@@ -73,7 +74,7 @@ a {
     min-width: 32px;
     min-height: 32px;
     transition: opacity 80ms linear;
-    /* hiding the hamburger icon on large screen sizes */
+    /* Hides burger icon on large screens */
     display: none;
     opacity: 0;
 }
@@ -85,10 +86,10 @@ a {
     min-width: 32px;
     min-height: 32px;
     transition: opacity 150ms linear;
-    /*   hiding the close icon and... */
+    /* Hides burger close icon */
     display: none;
     opacity: 0;
-    z-index: -1; /* pushing it behind the hamburger icon so that hamburger icon can be clicked */
+    z-index: -1; /* push burger to enable clickable feature*/
 }
 
 .menu {
@@ -128,13 +129,13 @@ a {
     }
 
     .menu {
-        /*makes menu offscreen */
+        /* makes menu off the screen */
         opacity: 0;
         position: fixed;
         visibility: none;
         top: -1000px;
 
-        /*styling*/
+        /* styling features */
         display: flex;
         flex-direction: column;
         justify-content: center;
