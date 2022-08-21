@@ -4,7 +4,8 @@
 -->
 
 <template>
-    <h1>WEB PROJECTS</h1>
+    <h1>PROJECTS</h1>
+    <p>The following are the list of her notable client websites designed and developed using different CMS platform.</p>
     <div id="card-wrap">
         <div class="item-container" v-for="content in contents" :key="content.id">
             <WebProjectsItem :items="content" />
