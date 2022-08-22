@@ -42,7 +42,7 @@
                 </div>
 
                 <div class="web-docubutton">
-                <a href="https://drive.google.com/drive/folders/1CC36ZCIcS0v3sSNVu0JqO5kpdcPQ4A3X?usp=sharing" target="_blank">FULL LIST</a>
+                <a href="https://docs.google.com/spreadsheets/d/1aqnXP2cYq1zjmbXCMiJAlZbHtRbOCiiaOOdtxTFQJbY/edit?usp=sharing" target="_blank">FULL LIST</a>
                 </div>
             </div>
         </div>
