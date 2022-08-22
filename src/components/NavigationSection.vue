@@ -6,7 +6,7 @@
 <template>
 <div class="nav">
     <!-- Website Logo -->
-    <img class="logo" :src="require('@/assets/logo.png')" alt="website logo">
+    <a href="header-section"><img class="logo" :src="require('@/assets/logo.png')" alt="website logo"></a>
 
     <!-- Website Navigation Menu -->
     <div class="menu-container">
