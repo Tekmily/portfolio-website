@@ -96,7 +96,6 @@ p {
   position: sticky;
   z-index: 1;
   top: 0;
-  padding-left: 2vw;
   padding-right: 2vw;
   background-color: var(--main-black) ;
   width: 100%;

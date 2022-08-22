@@ -50,8 +50,8 @@ a {
 }
 
 .logo {
-    width: 10%;
-    height: 10%;
+    width: 30%;
+    height: 20%;
 }
 
 .menu-container > img {
@@ -63,8 +63,8 @@ a {
     justify-content: space-between;
     align-items: center;
     position: sticky;
-    width: 100%;
-    height: 50%;
+    /* width: 100%;
+    height: 50%; */
     background-color: var(--main-black);
     color: white;
     z-index: 5;
@@ -129,7 +129,7 @@ a {
 }
 
 /* SMALL SCREEN DEVICES */
-@media (max-width: 560px) {
+@media (max-width: 1040px) {
     .hamburger {
         /* makes burger visibile to small screens */
         display: flex;
