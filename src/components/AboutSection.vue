@@ -10,7 +10,6 @@
                     <h1>ABOUT HER</h1>
                     <p>She studied Bachelor of Science in Computer Science at the Polytechnic University of the Philippines. She has worked as Content Management System (CMS) Developer & Designer, and has also worked as SEO Specialist since 2018. She excels at designing and developing websites with HTML and CSS.</p>
                 </section>
-
                 <!-- CERTIFICATIONS LIST -->
                 <section id="certifications">
                     <h3>CERTIFICATIONS</h3>
@@ -74,9 +73,6 @@ html {
     margin-right: 5vh;
 }
 
-/* .cert-info {
-    text-align: left;
-} */
 
 .cert-info .qr-image {
     width: clamp(64px, 25%, 150px);

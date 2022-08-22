@@ -47,19 +47,27 @@
             </div>
         </div>
     </div>
+    <footer>
+        <p>Built by Trishia Ann Cabuang ⓒ 2022</p>
+    </footer>
 </template>
 
 <style scoped>
 
+footer p {
+    font-size: 16px;
+    background-color: var(--main-pink);
+    color: var(--main-black);
+}
+
 .contact-area {
     display: flex;
-    justify-content: center;
-    align-content: space space-between;
+    justify-content: space-evenly;
+    align-content: center;
     gap: 10%;
     flex-wrap: wrap;
     padding-top: 0;
     padding-bottom: 20px;
-    width: 100%;
     position: relative;
 
 }

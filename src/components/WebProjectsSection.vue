@@ -49,6 +49,7 @@ const contents = [
 </script>
 
 <style scoped>
+
 #card-wrap {
     display: flex;
     justify-content: center;

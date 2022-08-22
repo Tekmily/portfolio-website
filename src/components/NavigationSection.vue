@@ -49,8 +49,13 @@ a {
     text-decoration: none;
 }
 
+.logo {
+    width: 10%;
+    height: 10%;
+}
+
 .menu-container > img {
-    max-width: 520px;
+    max-width: 350px;
 }
 
 .nav {
@@ -59,10 +64,12 @@ a {
     align-items: center;
     position: sticky;
     width: 100%;
+    height: 50%;
     background-color: var(--main-black);
     color: white;
     z-index: 5;
-    padding: 1rem; 
+    /* padding: 1rem;  */
+    margin: 0;
 }
 
 .menu-container {
@@ -104,6 +111,7 @@ a {
 
 .item {
     margin-right: 1em;
+    font-size: 24px;
 }
 
 .link {

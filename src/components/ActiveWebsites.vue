@@ -24,8 +24,10 @@
                 <li><a href="http://www.thepricefoundation.com" target="_blank">Price Foundation</a></li>
                 <li><a href="http://www.gulfcoastharpers.org/" target="_blank">The Harpers</a></li>
             </ul>
-            <div class="web-docubutton">
-                <a href="#webprojects-section">NOTABLE WEBSITES</a>
+            <div class="web-buttons">
+                <div class="web-docubutton">
+                    <a href="#webprojects-section">NOTABLE WEBSITES</a>
+                </div>
             </div>
         </div>
 
@@ -36,11 +38,11 @@
             <!-- BUTTONS -->
             <div class="web-buttons">
                 <div class="web-docubutton">
-                <a href="https://drive.google.com/drive/folders/1CC36ZCIcS0v3sSNVu0JqO5kpdcPQ4A3X?usp=sharing">DOCUMENTATION</a>
+                <a href="https://drive.google.com/drive/folders/1CC36ZCIcS0v3sSNVu0JqO5kpdcPQ4A3X?usp=sharing" target="_blank">DOCUMENTATION</a>
                 </div>
 
                 <div class="web-docubutton">
-                <a href="https://drive.google.com/drive/folders/1CC36ZCIcS0v3sSNVu0JqO5kpdcPQ4A3X?usp=sharing">FULL LIST</a>
+                <a href="https://drive.google.com/drive/folders/1CC36ZCIcS0v3sSNVu0JqO5kpdcPQ4A3X?usp=sharing" target="_blank">FULL LIST</a>
                 </div>
             </div>
         </div>
@@ -60,8 +62,8 @@
     padding: 0;
 }
 .web-docubutton {
-    width: clamp(150px, 30%, 250px);
-    height: clamp(50px, 20%, 100px);
+    width: clamp(200px, 30%, 250px);
+    height: clamp(100px, 20%, 200px);
     border: 2px solid var(--main-black);
     margin: auto;
     padding: 1vw;
@@ -125,9 +127,10 @@
 }
 
 .para-format {
-    font-size: 18px;
+    font-size: 22px;
 	line-height: 24px;
 	color: var(--main-black);
+    text-align: justify;
 }
 
 .other-active ul {
@@ -140,7 +143,7 @@
 .other-active a {
     text-decoration: none;
     color: var(--main-black);
-    font-size: 16px;
+    font-size: 19px;
 }
 
 .other-active a:hover {
@@ -148,10 +151,9 @@
 }
 /* FOR BLOCKQUOTE  */
 .quote {
-    margin-left: 1vw;
-    margin-right: 5vw;
-    margin-top: 2vw;
-    margin-bottom: 2vw;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 5vh;
 }
 
 blockquote {
@@ -160,11 +162,9 @@ blockquote {
     width: 90%;
     height: 30%;
     padding: 10px 15px 10px 30px;
-    /* margin-left: ; */
     position: relative;
 /* FONT */
     font-family: inherit;
-    font-size: 24px;
     line-height: 1.2;
 /* BORDERS  */
     border-left-style: solid;
@@ -189,11 +189,11 @@ blockquote::after {
 
 h2 {
     text-align: left;
-    font-size: 28px;
+    font-size: 34px;
 }
 
 .web-blockquote p {
-    font-size: 20px;
+    font-size: 24px;
     color: var(--main-gray);
     font-weight: normal;
 }

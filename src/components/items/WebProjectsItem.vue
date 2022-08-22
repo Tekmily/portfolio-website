@@ -61,7 +61,7 @@ img {
 }
 
 .web-detail {
-    font-size: 18px;
+    font-size: 22px;
 	line-height: 24px;
 	color: var(--main-black);
 }

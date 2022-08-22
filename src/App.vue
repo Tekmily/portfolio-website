@@ -89,16 +89,18 @@ h3 {
 
 p {
   color: var(--main-gray);
-  font-size: 20px;
+  font-size: 24px;
 }
 
 #navigation-section {
   position: sticky;
   z-index: 1;
   top: 0;
-  padding: 1vw 2vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
   background-color: var(--main-black) ;
   width: 100%;
+  height: 50%;
   margin-left: -1vw;
 }
 
@@ -107,8 +109,27 @@ p {
   margin-right: -3vw;
 }
 
+#about-section{
+  margin-top: 5vh;
+  margin-bottom: 20vh;
+  scroll-margin-top: 15vh;
+}
+
+#webprojects-section {
+  padding-bottom: 3vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  scroll-margin-top: 20vh;
+}
+
+#active-websites {
+  padding-bottom: 5vh;
+  padding-top: 5vh;
+}
+
 #seo-results {
   padding-bottom: 5vh;
+  padding-top: 5vh;
 }
 
 #contact-section {
