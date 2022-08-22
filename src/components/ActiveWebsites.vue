@@ -24,28 +24,60 @@
                 <li><a href="http://www.thepricefoundation.com" target="_blank">Price Foundation</a></li>
                 <li><a href="http://www.gulfcoastharpers.org/" target="_blank">The Harpers</a></li>
             </ul>
+            <div class="web-docubutton">
+                <a href="#webprojects-section">NOTABLE WEBSITES</a>
+            </div>
         </div>
 
         <div class="other-active">
-            <h3 class="head-format">ALL DOMAIN</h3>
+            <h3 class="head-format">ALL DOMAINS</h3>
             <p class="para-format">She kept track of all the domain names she worked on for various clients and private blog networks in Excel. She was also in charge of domain registration, hosting (via hosting services), and website maintenance. Some of the domains have already been removed, and others have been sold. That being said, you can view the domain's documentation and check the domains she managed by clicking the buttons below.</p>
 
             <!-- BUTTONS -->
-    <div class="web-buttons">
-        <div class="web-docubutton">
-            <a href="https://drive.google.com/drive/folders/1CC36ZCIcS0v3sSNVu0JqO5kpdcPQ4A3X?usp=sharing">DOCUMENTATION</a>
-        </div>
+            <div class="web-buttons">
+                <div class="web-docubutton">
+                <a href="https://drive.google.com/drive/folders/1CC36ZCIcS0v3sSNVu0JqO5kpdcPQ4A3X?usp=sharing">DOCUMENTATION</a>
+                </div>
 
-        <div class="web-listbutton">
-            <a href="https://drive.google.com/drive/folders/1CC36ZCIcS0v3sSNVu0JqO5kpdcPQ4A3X?usp=sharing">FULL LIST</a>
-        </div>
-    </div>
+                <div class="web-docubutton">
+                <a href="https://drive.google.com/drive/folders/1CC36ZCIcS0v3sSNVu0JqO5kpdcPQ4A3X?usp=sharing">FULL LIST</a>
+                </div>
+            </div>
         </div>
     </div>
 
 </template>
 
 <style scoped>
+/* BUTTON  */
+.web-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+.web-docubutton {
+    width: clamp(150px, 30%, 250px);
+    height: clamp(50px, 20%, 100px);
+    border: 2px solid var(--main-black);
+    margin: auto;
+    padding: 1vw;
+    font-size: 18px;
+}
+
+.web-docubutton:hover {
+    background-color: var(--main-pink);
+    color: white;
+}
+
+.web-docubutton a {
+    text-decoration: none;
+    color: white;
+}
+
 /* CARDS */
 .web-list {
     display: flex;
@@ -61,8 +93,8 @@
     justify-content: center;
     align-items: center;
     background: var(--main-gray);
-    width: clamp(100px, 50%, 450px);
-    height: clamp(400px, 40%, 1200px);
+    width: clamp(100px, 50%, 550px);
+    height: clamp(450px, 40%, 1200px);
     position: relative;
     border-radius: 4px;
     padding: 20px;
@@ -108,10 +140,10 @@
 .other-active a {
     text-decoration: none;
     color: var(--main-black);
+    font-size: 16px;
 }
 
 .other-active a:hover {
-    background-color: var(--main-black);
     color: white;
 }
 /* FOR BLOCKQUOTE  */
@@ -166,23 +198,5 @@ h2 {
     font-weight: normal;
 }
 
-/* BUTTON  */
-.web-docubutton {
-    width: clamp(150px, 30%, 250px);
-    height: clamp(50px, 20%, 100px);
-    border: 2px solid white;
-    margin: auto;
-    padding: 1vw;
-    font-size: 20px;
-}
 
-.web-docubutton:hover {
-    background-color: var(--main-pink);
-    color: white;
-}
-
-.web-docubutton a {
-    text-decoration: none;
-    color: white;
-}
 </style>

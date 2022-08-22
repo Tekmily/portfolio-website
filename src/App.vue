@@ -107,5 +107,14 @@ p {
   margin-right: -3vw;
 }
 
+#seo-results {
+  padding-bottom: 5vh;
+}
 
+#contact-section {
+    background-color: black;
+    margin: -1vw ;
+    padding: 0;
+    /* width: 100%; */
+}
 </style>

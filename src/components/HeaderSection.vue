@@ -8,7 +8,7 @@
         <div class="content">
             <p>HER NAME IS TRISHIA, AND SHE IS A</p>
             <h1>
-                <a href="" class="typewrite" data-period="2000" data-type='[ "WEB DEVELOPER", "FRONTEND DESIGNER", "SEO SPECIALIST"]'>
+                <a href="" class="typewrite" data-period="2000" data-type='[ "WEB DEVELOPER", "FRONTEND DESIGNER", "SEO SPECIALIST", "FRESH GRAD"]'>
                 <span class="wrap"></span>
                 </a>
             </h1>
