@@ -14,7 +14,7 @@
             </h1>
             <p class="sub-text">SHE ASPIRES TO CRAFT WEB EXPERIENCES THAT TYPIFY AND INSPIRE.</p>
             <div class="resume">
-                <a href="https://drive.google.com/file/d/15gDiNbYYOxvRjRyvtvLmRt32Wzs3f1si/view?usp=sharing" target="_blank">DOWNLOAD RESUME</a>
+                <a href="https://drive.google.com/file/d/1IcY7AjrpxTsDeuLBso6Er_L8sqvR6vap/view?usp=sharing" target="_blank">DOWNLOAD RESUME</a>
             </div>
         </div>
     </div>
