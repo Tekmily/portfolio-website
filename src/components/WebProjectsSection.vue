@@ -44,7 +44,14 @@ const contents = [
         title: "MY CAR DETAIL CHICAGO",
         a: 'https://www.mycardetailchicago.com/',
         body: "This website was built with WordPress. She worked on this client website for 4 years. Through SEO, most target keywords for this site ranked third to fifth in Google. She also worked on site's social media page."
-    } //END OF MY CAR DETAIL
+    }, //END OF MY CAR DETAIL
+    {
+        id: 5,
+        image: "Baybayin.png",
+        title: "BAYBAYSALIN",
+        a: 'https://drive.google.com/file/d/13Vb8iYqCoikGN2YdBabQZ1BXUbdncMhS/view?usp=sharing',
+        body: "BaybaySalin is a machine learning thesis project that focuses on multi-dialect baybayin image-to-text conversion using Speeded Up Robust Features (SURF) and Convolutional Neural Networks (CNN)."
+    }
 ]; /*END OF CONST CONTENTS*/
 </script>
 
