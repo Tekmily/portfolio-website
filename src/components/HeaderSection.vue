@@ -13,9 +13,14 @@
                 </a>
             </h1>
             <p class="sub-text">SHE ASPIRES TO CRAFT WEB EXPERIENCES THAT TYPIFY AND INSPIRE.</p>
-            <div class="resume">
-                <a href="https://drive.google.com/file/d/1ld5Km8hb4-C6Wm4LrAi11UuKwgksfN5K/view?usp=sharing" target="_blank">DOWNLOAD RESUME</a>
-            </div>
+        </div>
+        <div class="button-flex">
+            <section class="resume">
+                <a href="https://drive.google.com/file/d/1ej2Ywzd1P7Rv0727odb0SuMKBX8k6Lxh/view?usp=sharing" target="_blank">RESUME</a>
+            </section>
+            <section class="resume">
+                <a href="https://drive.google.com/file/d/1frZ0jCMUtf3vC1fKQGvP-6a9FHyTtTSd/view?usp=sharing" target="_blank">CV</a>
+            </section>
         </div>
     </div>
 </template>
@@ -117,8 +122,14 @@ var TxtType = function(el, toRotate, period) {
     font-size: 32px;
 }
 
+.button-flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
 .resume {
-    width: clamp(150px, 30%, 250px);
+    width: clamp(10px, 30%, 200px);
     height: clamp(50px, 20%, 100px);
     border: 2px solid white;
     margin: auto;
