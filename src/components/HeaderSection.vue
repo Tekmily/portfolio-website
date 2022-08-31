@@ -16,7 +16,7 @@
         </div>
         <div class="button-flex">
             <section class="resume">
-                <a href="https://drive.google.com/file/d/1ej2Ywzd1P7Rv0727odb0SuMKBX8k6Lxh/view?usp=sharing" target="_blank">RESUME</a>
+                <a href="https://drive.google.com/file/d/1wx6y74ECzzfAQJ9cRACxHxPFWqY0f2ye/view?usp=sharing" target="_blank">RESUME</a>
             </section>
             <section class="resume">
                 <a href="https://drive.google.com/file/d/1frZ0jCMUtf3vC1fKQGvP-6a9FHyTtTSd/view?usp=sharing" target="_blank">CV</a>
